@@ -34,5 +34,7 @@ alias 'ls'='ls -hpAG'
 alias 'll'='ls -l'
 alias 'la'='ll'
 alias 'ack'='ack --color-filename=green --color-match=yellow --ignore-dir=log --ignore-dir=tmp'
-alias 'tmux'='tmux -2'
-alias 'photoshop'='open -a "Adobe Photoshop CS6"'
+
+if [ -d /Applications/Adobe\ Photoshop\ CS6 ]; then
+    alias 'photoshop'='open -a "Adobe Photoshop CS6"'
+fi
