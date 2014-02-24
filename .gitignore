@@ -3,4 +3,4 @@
 *.so
 *.egg
 *.egg-info
-sj-prototype.sublime-workspace
+*.sublime-workspace
