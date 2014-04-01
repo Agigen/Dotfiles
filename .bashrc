@@ -18,6 +18,10 @@ if [ -d ~/bin ] ; then
     export PATH="~/bin:$PATH"
 fi
 
+if [ -d ~/node_modules/.bin ] ; then
+    export PATH="~/node_modules/.bin:$PATH"
+fi
+
 export JAVA_HOME=$(/usr/libexec/java_home)
 
 export LANG=en_US.UTF-8
